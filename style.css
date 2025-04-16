@@ -1,0 +1,213 @@
+/* RESET */
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background: linear-gradient(to bottom right, #1e293b, #3b82f6);
+    color: #e2e8f0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+
+/* CONTAINER PRINCIPAL */
+.container {
+    width: 90%;
+    max-width: 500px;
+    background: #1f2937;
+    padding: 24px;
+    border: 1px solid #334155;
+    border-radius: 10px;
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.2);
+    margin: 20px;
+}
+
+/* TÍTULOS */
+h1 {
+    text-align: center;
+    margin-bottom: 20px;
+    color: #f8fafc;
+}
+
+/* NAVEGAÇÃO */
+nav ul {
+    list-style-type: none;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 20px;
+    padding-left: 0;
+}
+
+nav ul li {
+    margin: 0 10px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #7bb6ff;
+    font-weight: bold;
+    transition: color 0.2s ease;
+}
+
+nav ul li a:hover {
+    color: #93c5fd;
+}
+
+/* FORMULÁRIO */
+form {
+    width: 100%;
+}
+
+label {
+    display: block;
+    margin-bottom: 6px;
+    font-weight: bold;
+    color: #cbd5e1;
+}
+
+input[type="text"],
+input[type="email"],
+input[type="password"] {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #475569;
+    border-radius: 6px;
+    background-color: #0f172a;
+    color: #f1f5f9;
+    margin-bottom: 15px;
+    font-size: 15px;
+}
+
+input:focus {
+    border-color: #3b82f6;
+    outline: none;
+    box-shadow: 0 0 4px #3b82f6;
+}
+
+/* BOTÕES */
+button,
+.btn,
+.btn-link {
+    display: inline-block;
+    padding: 10px 20px;
+    background: linear-gradient(45deg, #3b82f6, #1e40af);
+    color: #ffffff;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+    font-size: 15px;
+    font-weight: bold;
+    text-align: center;
+    text-decoration: none;
+    transition: transform 0.2s ease, background-color 0.3s ease;
+    margin: 5px 5px;
+    white-space: nowrap;
+}
+
+button:hover,
+.btn:hover,
+.btn-link:hover {
+    background: linear-gradient(45deg, #2563eb, #1e3a8a);
+    transform: scale(1.03);
+}
+
+a.btn,
+a.btn:visited,
+a.btn:active {
+    color: #ffffff;
+}
+
+a.btn:hover {
+    background-color: #1e3a8a;
+}
+
+/* DASHBOARD ERP */
+.erp-container {
+    max-width: 800px;
+    margin: 20px auto;
+    background: #1f2937;
+    padding: 24px;
+    border-radius: 10px;
+    border: 1px solid #334155;
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.2);
+}
+
+.erp-header {
+    text-align: center;
+    margin-bottom: 20px;
+    font-size: 22px;
+    font-weight: bold;
+    color: #f8fafc;
+}
+
+.erp-menu {
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 20px;
+}
+
+.erp-menu a {
+    text-decoration: none;
+    color: #ffffff;
+    background-color: #7399ec;
+    font-weight: bold;
+    flex: 1;
+    margin: 0 5px;
+    padding: 10px;
+    border-radius: 6px;
+    text-align: center;
+    transition: background-color 0.3s ease;
+}
+
+.erp-menu a:hover {
+    background-color: #3454ab;
+}
+
+.erp-content {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+.erp-box {
+    flex: 1;
+    min-width: 200px;
+    background: linear-gradient(to top left, #0f172a, #5971b5);
+    color: #ffffff;
+    padding: 20px;
+    text-align: center;
+    border-radius: 8px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.3);
+    transition: transform 0.2s ease;
+}
+
+.erp-box:hover {
+    transform: translateY(-4px);
+}
+
+/* TABELAS */
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 10px;
+    background-color: #0f172a;
+    color: #f8fafc;
+    font-size: 14px;
+}
+
+th, td {
+    border: 1px solid #334155;
+    padding: 12px;
+    text-align: left;
+}
+
+th {
+    background-color: #1e293b;
+    color: #93c5fd;
+}
