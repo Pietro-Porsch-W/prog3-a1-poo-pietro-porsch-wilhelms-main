@@ -1,4 +1,4 @@
-# Prog3 A1 – Sistema de ERP
+# Programação 3 - Sistema de ERP
 
 - **Nome:** Pietro Porsch Wilhelms
 - **Campus:** UNOESC - São Miguel do Oeste
