@@ -1,8 +1,7 @@
 # Programação 3 - Sistema de ERP
 
 - **Nome:** Pietro Porsch Wilhelms
-- **Campus:** UNOESC - São Miguel do Oeste
-- **Campus:** Ciência da Computação
+- **Campus:** UNOESC - São Miguel do Oeste 
 
 ## Descrição Do projeto
 Este é um projeto de ERP simples utilizando PHP, HTML e CSS, utilizando a orientação a objetos que permite:
